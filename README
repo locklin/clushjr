@@ -1,0 +1,15 @@
+Some tools I need to port Lush to Clojure for the java interop capabilities (since my broker and
+data sources are Java related).
+
+It's done in the style of Lush, and at present is mostly syntax sugar for JBLAS calls
+
+TBD soon: regression, a timeseries class, filters, and eventually a KNN learner and
+optimization tools.
+
+Incanter didn't serve my needs, as Colt is a pretty lousy linear algebra library, and
+there is a lot of stuff in Incanter I either don't need, can't make work with Clojure
+1.3 or don't agree with.
+
+If it's at all useful to anyone, by all means, use it, branch it, sell it; I don't care.
+Zlib/libpng license.
+
